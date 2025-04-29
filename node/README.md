@@ -7,4 +7,4 @@ For production
 For testing
 
 ### Note
-Be sure to add `"dev-docker": "nuxt dev --host 0.0.0.0",` in the package.json file in your nuxt project
+Make sure to add `"dev-docker": "nuxt dev --host 0.0.0.0",` in the package.json file in your nuxt project
