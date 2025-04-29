@@ -1,7 +1,5 @@
 FROM php:8.4.6-fpm AS fpm
 RUN apt-get update && apt-get install -y \
-    libpq-dev \
-    libzip-dev \
     unzip
 
 RUN docker-php-ext-install zip
@@ -13,5 +11,3 @@ WORKDIR /var/www
 RUN chmod -R 777 /var/www
 
 CMD [ "php-fpm" ]
-
-# docker build -t php-local:pgsql-python .

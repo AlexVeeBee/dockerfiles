@@ -17,5 +17,3 @@ WORKDIR /var/www
 RUN chmod -R 777 /var/www
 
 CMD [ "php-fpm" ]
-
-# docker build -t php-local:pgsql-python .
