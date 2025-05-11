@@ -49,5 +49,5 @@ docker compose up -d
 
 To build and run:
 ```bash
-docker compose up --d --build
+docker compose up -d --build
 ```
